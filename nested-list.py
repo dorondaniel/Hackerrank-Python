@@ -10,8 +10,8 @@ if __name__ == '__main__':
 
     lst_second_low = [] #list to hold all the second lowest elements
     for x in lst:
-        if x[1] == second_low_sorted_score: #if the score in the list lst equals the second_low_sorted_score
-            lst_second_low.append(x[0]) # then pnly the name from the lst will be appended to the new lst_second_low list
+        if x[1] == second_low_sorted_score: #if the score in the list 'lst' equals the second_low_sorted_score
+            lst_second_low.append(x[0]) # then only the name from the 'lst' will be appended to the new lst_second_low list
             
     for x in sorted(lst_second_low):
         print(x) #prints the names
