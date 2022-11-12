@@ -20,9 +20,9 @@ def matchingStrings(strings, queries):
     
     result = []
     for i in queries:
-        lst = [r for r in strings if r == i]
-        result.append(len(lst))
-    return result
+        lst = [r for r in strings if r == i] # a list for holding the value if the value in strings == queries
+        result.append(len(lst)) # appends the values to a new list at each index
+    return result # return the result list 
     
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
